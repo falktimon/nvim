@@ -13,6 +13,8 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'junegunn/goyo.vim'
 Plugin 'preservim/vim-pencil'
 Plugin 'rust-lang/rust.vim'
+Plugin 'David-Kunz/gen.nvim'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 
@@ -21,4 +23,7 @@ filetype plugin indent on
 
 nnoremap cc :SoftPencil \| Goyo <CR>
 
-colorscheme slate
+autocmd ColorScheme * highlight Normal guibg=None
+autocmd ColorScheme * highlight NonText guibg=None
+
+colorscheme falcon
