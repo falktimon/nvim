@@ -26,4 +26,4 @@ nnoremap cc :SoftPencil \| Goyo <CR>
 autocmd ColorScheme * highlight Normal guibg=None
 autocmd ColorScheme * highlight NonText guibg=None
 
-colorscheme falcon
+colorscheme Spink
